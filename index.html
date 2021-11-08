@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <button class="new">New Book</button>
+    <form id='form' action="/" method="GET">
+        <label for="title">Title:</label>
+        <input id='title' name="title" type="text" required><br>
+        <label for="author">Author:</label>
+        <input id='author' name="author" type="text" required><br>
+        <label for="page">Page:</label>
+        <input id='page' name="page" type="number" required>
+        <button type="submit">Add</button>
+    </form>
+    <div class="result"></div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
