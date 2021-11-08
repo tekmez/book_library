@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-family: 'Varela Round', sans-serif;
+    background-color: #181616FA;
+    color: white;
+}
+h1{
+    margin-top: 150px;
+    color: #17C3B2;
+}
 #form{
     display: none;
-    border: 1px solid black;
-    width: 25%;
+    border: 1px solid #17C3B2;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: 7px;
+    background-color: #1f1d1dfa;
 }
+.result{
+    margin-top: 25px;
+}
+.new{
+    margin: 75px auto 25px auto;
+}
+.add{
+    margin: 25px 25px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: #252323fa;
+    color: white;
+}
+
+button {
+    padding: 0.9em 2em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ddd;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    border-radius: 7px;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }

@@ -10,15 +10,16 @@
 </head>
 
 <body>
+    <h1>LİBRARY</h1>
     <button class="new">New Book</button>
-    <form id='form' action="/" method="GET">
-        <label for="title">Title:</label>
+    <form id='form' action="/">
+        <label for="title">Title:</label><br>
         <input id='title' name="title" type="text" required><br>
-        <label for="author">Author:</label>
+        <label for="author">Author:</label><br>
         <input id='author' name="author" type="text" required><br>
-        <label for="page">Page:</label>
-        <input id='page' name="page" type="number" required>
-        <button type="submit">Add</button>
+        <label for="page">Page:</label><br>
+        <input id='page' name="page" type="number" required><br>
+        <button class='add' type="submit">Add</button>
     </form>
     <div class="result"></div>
     <script src="/script.js"></script>
