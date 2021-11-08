@@ -22,7 +22,13 @@ h1{
     background-color: #1f1d1dfa;
 }
 .result{
-    margin-top: 25px;
+    margin: 25px auto;
+    border: 1px solid #17C3B2;
+    width: 200px;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: 7px;
+    background-color: #1f1d1dfa;
 }
 .new{
     margin: 75px auto 25px auto;

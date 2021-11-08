@@ -22,7 +22,7 @@ function Book(title, author, page) {
     this.author = author;
     this.page = page;
     this.info = function () {
-        return (`${this.title} written by ${this.author}, ${this.page} pages.<br>`)
+        return (`<h3>Book : ${this.title}</h3> <h3>Author : ${this.author}</h3> <h3>Page : ${this.page}</h3><br>`)
     }
 }
 
