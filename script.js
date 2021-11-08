@@ -39,4 +39,7 @@ function addBookToLibrary() {
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     result.innerHTML = addBookToLibrary();
+    title.value = '';
+    author.value = '';
+    page.value = '';
 });
